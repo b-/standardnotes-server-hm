@@ -1,0 +1,7 @@
+standardnotes:
+    url: https://github.com/b-/standardnotes-server
+    branch: main
+    compose_config:
+      - docker-compose.example.yml
+      - docker-compose.overlay.yml
+    environment_file: "secrets/env"
